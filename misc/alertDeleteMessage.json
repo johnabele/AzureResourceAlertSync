@@ -1,0 +1,23 @@
+{
+  "subject": "/subscriptions/97284064-a541-4591-aa38-d52ed9453088/resourcegroups/rsgDetectionPOC/providers/Microsoft.Compute/virtualMachines/detection-vm-109",
+  "eventType": "Microsoft.Resources.ResourceDeleteSuccess",
+  "eventTime": "2019-10-17T03:05:26.9555589Z",
+  "id": "9ee76a7e-8a89-4003-bd98-ab072cb8288b",
+  "data": {
+    "authorization": {
+      "scope": "/subscriptions/97284064-a541-4591-aa38-d52ed9453088/resourceGroups/rsgDetectionPOC/providers/Microsoft.Compute/virtualMachines/detection-vm-109",
+      "action": "Microsoft.Compute/virtualMachines/delete",
+      "evidence": { "role": "Subscription Admin" }
+    },
+    "correlationId": "6cbd690e-3aff-4992-99dd-fc52611ddc0f",
+    "resourceProvider": "Microsoft.Compute",
+    "resourceUri": "/subscriptions/97284064-a541-4591-aa38-d52ed9453088/resourcegroups/rsgDetectionPOC/providers/Microsoft.Compute/virtualMachines/detection-vm-109",
+    "operationName": "Microsoft.Compute/virtualMachines/delete",
+    "status": "Succeeded",
+    "subscriptionId": "97284064-a541-4591-aa38-d52ed9453088",
+    "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+  },
+  "dataVersion": "2",
+  "metadataVersion": "1",
+  "topic": "/subscriptions/97284064-a541-4591-aa38-d52ed9453088"
+}

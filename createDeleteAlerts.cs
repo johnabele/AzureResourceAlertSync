@@ -42,7 +42,6 @@ namespace processCreateDeleteAlerts
                 if (operationName.Contains("delete"))
                 {
                     //log.LogInformation($"Deleting record from cosmos db....");
-                    QueryDefinition sqlQuery = new QueryDefinition("select * from c where c.resourceId = @resourceId").WithParameter("@resourceId", resourceAlertObj.resourceId);
                     ResourceAlertDTO item = client.GetContainer(databaseId, collectionId).GetItemLinqQueryable<ResourceAlertDTO>(true).Where(b=>b.resourceId == resourceAlertObj.resourceId).AsEnumerable().FirstOrDefault();
 
                     //log.LogInformation($"Item Id: " + item.id);
